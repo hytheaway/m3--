@@ -2489,24 +2489,13 @@
 				)
 			)
 		)
-		(fp_text user "Ethernet"
+		(fp_text user "aoifernet"
 			(at -12.065 -3.2766 0)
 			(layer "F.SilkS")
 			(uuid "690e3baf-8c4a-4df0-9c6b-78fc575cc89b")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "DVJ6A"
-			(at -2.54 -0.18 0)
-			(layer "F.SilkS")
-			(uuid "69968989-49be-4a1b-b5da-90f4cd9be354")
-			(effects
-				(font
-					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2518,17 +2507,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "MIMXRT1062"
-			(at -1.27 0 0)
-			(layer "F.SilkS")
-			(uuid "b018c1d6-5934-49a0-ba93-ddd8f2a3c8c1")
-			(effects
-				(font
-					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -5672,6 +5650,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fecf68e6-6375-4c5a-b68b-561ae7c4ca8c")
+	)
+	(gr_text "docking takes place at home.\nyiffing takes place on your own time."
+		(at 189 125.5 0)
+		(layer "B.SilkS")
+		(uuid "d8833e2d-b700-4a30-ab62-9cdfab7b8c25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "mounting takes place here"
 		(at 169 125 0)
